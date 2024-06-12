@@ -1,4 +1,4 @@
-package br.com.papait.bruno.controleacesso_api.domain;
+package br.com.papait.bruno.controleacesso_api.core.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,10 +9,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Usuario {
+public class Visitante {
   private Long id;
-  private String email;
-  private String senha;
-  private Boolean isAdministrador;
+  private String rg;
   private Pessoa pessoa;
 }

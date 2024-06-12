@@ -1,4 +1,4 @@
-package br.com.papait.bruno.controleacesso_api.domain;
+package br.com.papait.bruno.controleacesso_api.core.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
